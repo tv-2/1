@@ -9,18 +9,18 @@
                 "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
                 "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "",
-                    "Accept-Language": "",
-                    "Connection": "",
-                    "Origin": "",
-                    "Referer": "",
-                    "Sec-Fetch-Dest": "",
-                    "Sec-Fetch-Mode": "",
-                    "Sec-Fetch-Site": "",
+                    "Accept": " ",
+                    "Accept-Language": " ",
+                    "Connection": " ",
+                    "Origin": " ",
+                    "Referer": " ",
+                    "Sec-Fetch-Dest": " ",
+                    "Sec-Fetch-Mode": " ",
+                    "Sec-Fetch-Site": " ",
                     "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )",
-                    "sec-ch-ua": "",
-                    "sec-ch-ua-mobile": "",
-                    "sec-ch-ua-platform": ""
+                    "sec-ch-ua": " ",
+                    "sec-ch-ua-mobile": " ",
+                    "sec-ch-ua-platform": " "
                 }
             },
             {
