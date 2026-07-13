@@ -3,24 +3,24 @@
         "name": "🏆MUNDIAL FIFA 2026🏆",
         "samples": [
             {
-                "name": "GEN MUNDIAL",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042GcpaYsE2muOvqSmPxnlPRTtFvfYcFmD20+IRVfnxBQoK1RNeIDMQSmyhlmxyIXDVJNmhcHVrnjweraT290ucD",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
                 "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CmaZCBoQt6MO2DUtxtuBONEzzDaLODoZ9fLSMPH3r6IxAmJ0kajCbr2kdK+OmOu6Lotn3OLDzz2rhtqhgTOY2ncNdseqnt711N6yB/mx3ncpg==",
+                "drm_license_uri": "{"96f177548046a9f56bbb39a900a82ddd":"96aa836072fd84c9a8e6219652330272"}",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "Accept": "",
+                    "Accept-Language": "",
+                    "Connection": "",
+                    "Origin": "",
+                    "Referer": "",
+                    "Sec-Fetch-Dest": "",
+                    "Sec-Fetch-Mode": "",
+                    "Sec-Fetch-Site": "",
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )",
+                    "sec-ch-ua": "",
+                    "sec-ch-ua-mobile": "",
+                    "sec-ch-ua-platform": ""
                 }
             },
             {
