@@ -9,328 +9,198 @@
                 "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
                 "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": " ",
-                    "Accept-Language": " ",
-                    "Connection": " ",
-                    "Origin": " ",
-                    "Referer": " ",
-                    "Sec-Fetch-Dest": " ",
-                    "Sec-Fetch-Mode": " ",
-                    "Sec-Fetch-Site": " ",
-                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )",
-                    "sec-ch-ua": " ",
-                    "sec-ch-ua-mobile": " ",
-                    "sec-ch-ua-platform": " "
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "EL TRECE PY",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042aHE1jISJ+dUrtUvhA0r/+VCNoPHZAHRDRI6SbJ6cGOyYZLejbnTYhM20iriRu6upJNmhcHVrnjweraT290ucD",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a488364910509.86934142.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CnKG3HrpnSF7vAbJ8QqaAyXsZDL5zA2mVsbZevi5p6f0xNR4WVf0vHtdbkL/HWtQqAuVX6IYlbJIXtaTwpWd1uy9HkHqj1E8zOegrD/lNTEVQ==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "TYC SPORTS",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042GcpaYsE2muOvqSmPxnlPRNBzJkJnLDzz1bN9uvVJebOy/MYOlmFk1KSZLjdzBqpj3OaH+sqg0pfsTsGzpXVXE",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4921fe27d327.92011493.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkJ+6IrFT/OAX68osD4cIo8vEn9d2HWuLzK2hbTK3zmbO2iCzB32n3GSi4C2BKWqgWsMSJMmY5nYLKF2GI19eWJh8J6Mx9DrGXKEv3ojKmqw8Cv9pscK==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Dsports 1 ARGENTINA",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ040XYWf+51yzrDgTjrFLF2udlGVr25PrmwzlMyNbaECkV+Wm9x1sFN5Owt3eLqok5Tw52cz+U2K9FRmLieKOREB8",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a492460ee8107.44342474.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389Cnjtj3+1TZykbVwZYOLLZHd0WeeTt8+97rDN0SgkNmczhh4pRIA5ODQWrB0QAkPnOZYLrrhM0rSnEKDLl6SyXvDj4GXT3raXwIkzi9boy/HNQ==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Dsports 2 ARG🇦🇷",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ040XYWf+51yzrDgTjrFLF2ud5tPdgMOtfRp7V/OA7Gt4DuWm9x1sFN5Owt3eLqok5TykhbsNBAgT1sCFd2/t5MDz",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a492515f044b6.07543385.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CnG/sAnL2Dlg6w8tJpeF5KQmt7TwQ5lQaejt0SV9up3/QTS7W1105KZ+v4OyCw62zRlniRcy4emMxXH9t4pzrVtgInoUr4PkxlFoZVnfdYeOw==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "GEN CAMARA 1",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042GcpaYsE2muOvqSmPxnlPR/howicEEp9PhXCBpDldhrkQ07y6GKfJQyXX19I9LgPz+J/kWECxlieUjcQxueP+1",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b1970306c25.48686053.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkRYVV3Y0Oqp2uMIi4odu4S8vWlovlK+G2fjEjnR7RSqKfbSYPVarlWMJL4S4nrki8hD83H97R/PfAmqjtNj0rv8FnDaE2CB3l/f5cXZlLlAg==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "MULTICAMARA",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042GcpaYsE2muOvqSmPxnlPR/UVVLytB2UUaLv6f3wx6DcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b1970306c25.48686053.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkHcnUtZ+RVnhK/vwmNhCVlUbaQUhU+AklcELqmqbG6uOQ8B6oyRPqJvpz2ZQK0PJFHQCT2mu4WID/oy28tNilM1wICP+Phwc8XfF9SdxM34w==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "CAMARA DT",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042GcpaYsE2muOvqSmPxnlPRkuI3Ekn9BPwJJdkk+zh2QcW6XNVTE0GoS8+UBbaAFO8Q2GrjnvPT0lkTZLr6ycpR",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b1970306c25.48686053.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkdCdflW9MhRPNYpsqwwpMvjQb8IbonowDR5E/CV5IqCGXwkDytnKRCcf46MllAgPRDbjIfmyumsiLyP6HqP5DNxGDB/L/Gr8OKz4Cw44Ri2A==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "DSPORTS 2 UY🇺🇾",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042GcpaYsE2muOvqSmPxnlPRhdZPKL9PlLDcrFn0ODlN2+9pEe3xyCpAuvMC7P4LdcXbD/B9uGjXmeYLQg6qFeZ+",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a492515f044b6.07543385.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CmJAPfHcbIlw/AI3ymUKT3iQg7iM8I9BaXK2BR5y6QHd7nxQhMku4zAqU9eW0wvj1bPz4boq09AaPJPReP9GSPU88+M4QDK3H0luidwCC0b0Q==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Dsport 1 LAT FHD",
-                "url": "/gxWTLHb17ZKs4wVJ+lmRr9dEpYNfaGfXY4NpqcoVKkbrnRVOa7OypSmLSDBHgQb3Hv9r2mUcRlcZHwaUTHvoBYhGKrmPZQ/jgUDwDE2XoNXf8NB1Z974LOCn3Cs+L/64wkvcFzXJt+lJQqwluF7cLF/5sgf4w2+KbtWAAH2bdg=",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a492460ee8107.44342474.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CnGwJ6eJZkjcUcZmNl3WhCcUrQliHQVxEVuhKK45RVUeMq2B9oo+0NQKTUfvurjR+iq+tHz7trgc94geiEYph3HFwAHxPI4QGwdxjOG0hppGA=="
-            },
-            {
-                "name": "Dsport opc 2 LAT FHD",
-                "url": "1ddURC+dW5Zt5lS7mpCkKm5iXIDDZcjMCkXxSYqFNtxR0cx0kvbA++M2J0KhNsmcgkbOlCClRqfqvvkzSPhmLoAKj5YzGCq5qEXn1cl9FW8A2/SrHIylClO54e+C7R6K8Z8p5r/G6BO/lbeVBQssIZQ7C6WBamRbSAXxzBDFn/hFHwuaIurcCROxUBHyqidD",
-                "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a49257e52daf9.56780127.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389ClRwH70rUFARRcKbtyzqiqhDaCIJXKSqrD6KTwrB8D8ppYsjb5LlZIq3jxUtQrqK+YfT7gwNJewaW3d6aJ+NVNYRbvFvJerMXW6UOt7EzuW0g=="
-            },
-            {
-                "name": "DSPORTS 2 LAT",
-                "url": "1ddURC+dW5Zt5lS7mpCkKm5iXIDDZcjMCkXxSYqFNtxjXsxTNeud9dmYdluby5nmgkbOlCClRqfqvvkzSPhmLlE4zDXdnYN+l7qnHIErCB+MZKLzyUOIeDvnz1JpmZPdGg9Y+3DG0z3wphNIs3F+MOrlDrxmZxUzVF4G9v58y09FHwuaIurcCROxUBHyqidD",
-                "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4925cc35cc28.93802934.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389Cm22WuSpheF/aaoxwfbe+VLQNJ+zDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq/NDdHoInXpENWzDNyYNBwoiqbr9PlowL4dTuw==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
-            {
-                "name": "DSPORTS + LAT",
-                "url": "1ddURC+dW5Zt5lS7mpCkKm5iXIDDZcjMCkXxSYqFNtxjXsxTNeud9dmYdluby5nmgkbOlCClRqfqvvkzSPhmLshbfC+RJ4Tf36sxvxbJFgPjvPsAjDpcTTGFZUsiKlxkkeToQONfTVtka7kftrdhp1Y9ENhHoTcs29eYE8OzbNVFHwuaIurcCROxUBHyqidD",
+             {
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4927c4d5e909.49372080.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389ClocSrDGIYcpzSp0nfPmsekHCuakh6v5hQU9NKIM1m5eI/1DIAdDiW1JmdWhKqLsx9OYZDS5+LXuHLsl+K12Wb3fxx3rUIUcWB/B5kDEdEdow=="
-            },
-            {
-                "name": "TUDN MUNDIAL",
-                "url": "d0SUTiUUtf60TyBJnjjk1uLmaEzlLa+cQXpb1RWktHu87aWl9eep+wJpWrhP8pRecSYtB59u5C/eEOS6PaGlagIa9G/Yv5a0kWdY3oHtNubGqxPo4I5QfY1Z7BUiRficDsSMKQZS/CGhqF5smcjYDOVbTsyDyCylxLkHn4cJSlEos5+Ap4Q7W9qTe52BA7Yy",
-                "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a492a13e10f23.46184978.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389Cl4kSNXP4r+BFJcYb4taOrW++OZDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq/WdfRjOVWu1rO1tvyEumBKVT4U2d/eZYiVWt1g==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "TELEFE",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYsVtSnBkc/vZWTVfExllbjY5cNaX/bSAn8eAwYCU7gqSF/0TG9tZfQJnRhKbX+Mj3X",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a493379de9c48.88643612.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkgkVWN8DwsuLL3zG9p8AJwN+bhyzGV+ITdn6nPKBIBZDohqIBJQLoYAC5Ye5AB0oxx6uOxKo03fIKXpg/T8uAcW47c4tb4GKNKU8t4sUI8dQ==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "UNICANAL",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042aHE1jISJ+dUrtUvhA0r/+G0OlwubSX1zaliPOcbdXatpv1bZtzntBzD6Orhi644mAgHkkqdj4ybTyICYXJijE",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4930f545f777.83732826.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389ClEDYs/IQrxBD4KflJRU85AA0fheHnEctBeSdeGAFDyhcwFdeYExL7MaiyEVCMUa1BUEH742FX0Czi8CD3wU6FxT3NrN1IUIBpJoCWguvNNLw==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "TUDN",
-                "url": "1ddURC+dW5Zt5lS7mpCkKm5iXIDDZcjMCkXxSYqFNtxjXsxTNeud9dmYdluby5nmgkbOlCClRqfqvvkzSPhmLvKuiXs+Wl8rfkEWFCV8L/PPLTxggFVuq+mMbrkfxWjJ+UFQkkJnTVZA6NMvNSt4sptU6yCKU9E8KXngKjqgiNBFHwuaIurcCROxUBHyqidD",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4929d9447828.09725264.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CmnaAf3Vy9/3Q6Qhpc2XS9IB81oZKPF5J/OFihs68W3L6A6wWlgcaZPJ6XIOMvh8/mNrskjWI1SECy67qpSga7Qe8NBOFjs3WhC2VIw43LdAA=="
-            },
-            {
-                "name": "Sportv Mundial FHD",
-                "url": "1ddURC+dW5Zt5lS7mpCkKm5iXIDDZcjMCkXxSYqFNtwOF5PV1M+1psFCbqaK4L11gkbOlCClRqfqvvkzSPhmLlYzLyCmXy7KVV4tKRrnu129I3GZy7qFu0NoyTX8gcEeK2rx8jFPrv78S2EbHq7iuyfJ9vAfSywlmEa2STmBz5ZFHwuaIurcCROxUBHyqidD",
-                "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a493581dc73e9.23151754.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389ClLpXE42h3co6iixWxVdvJkKk3VB0eoyyB208RqWN0HlnF9em0UYAPDBeOKMmmMk8IlhfclopYL6GX4UbQAV25A/ir3KvkgGOYuyrgb7slJ/w==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "referer": "GHtwackB5TARk2EL7LdY+/p13dj5ziCI9+/fHNr0t7w=",
-                    "user_agent": "pU6g90vOkYSY1wIV4m1b9sXVfwPwhJsovdko8X13Mz/U6/uClfukDQo/o2Kyj0nX"
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "FOX SPORT 4K MUNDIAL",
-                "url": "1ddURC+dW5Zt5lS7mpCkKm5iXIDDZcjMCkXxSYqFNtxjXsxTNeud9dmYdluby5nmgkbOlCClRqfqvvkzSPhmLp2TNbLiVl3fUTq0XYuAQGTQ64uMSWx1hY65SO2fegl9SzZtug6LlyTdglaJ156506eCYHrBh844P/b48O3RI3NFHwuaIurcCROxUBHyqidD",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://i.ibb.co/CsngGzDW/Picsart-26-06-13-18-39-17-851.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkFW9efsUvdMDIs6QBziU3NGDHNXFc9kMIISb8VhEPWdHJKFhCZbh+IKBEhlQARMdwaPpCHfLPcGlJO5+n9/vYLnzlxJJjazwhC7H5JF1UYzA==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "referer": "GHtwackB5TARk2EL7LdY+/p13dj5ziCI9+/fHNr0t7w=",
-                    "user_agent": "pU6g90vOkYSY1wIV4m1b9sXVfwPwhJsovdko8X13Mz/U6/uClfukDQo/o2Kyj0nX"
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "CAZE TV FHD",
-                "url": "BtvTLA13ui3s+KGMkX9xVWXjdj8DDg8ElXSuQgfCIwkJfMlWm+SI8xaiAOuYCGswCqj7cYWWshVUDtjUYI/cxOhjv2QmeqEqlIzLltGrtV7Cp6nnq/gnoVV82PDKzsCpUj0gHr4dHyLpSu6Zf9Qvn/cMhybx08JrbWBJOFjnHtc=",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a493453632e67.97200594.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CmMSnEFidY++kNCVoGT55anK7rCo/XwsWjR3f0oynydKDECKk7jmK2xkUG5Cym8vKsvHHmEtsNMowIwZeJJNTp61PbUoX6ZrDpra72oJEM8QA=="
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
+                "headers": {
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
+                }
+            },
+            {
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
+                "type": "CLEARKEY",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
+                "headers": {
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
+                }
+            },
+            {
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
+                "type": "CLEARKEY",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
+                "headers": {
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
+                }
+            },
+            {
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
+                "type": "CLEARKEY",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
+                "headers": {
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
+                }
+            },
+            {
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
+                "type": "CLEARKEY",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
+                "headers": {
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
+                }
             },
             {
                 "name": "DAZN MUNDIAL",
@@ -339,496 +209,267 @@
                 "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b13f001c833.56960681.png"
             },
             {
-                "name": "POPU TV",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042GcpaYsE2muOvqSmPxnlPRp/agW1D5dTnsLsYM9BQalJx6bjSKfBMTMmvXJsp0IuyypMwWCHW1jas0f6nr+LcP",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a49374ce9fe68.59409343.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkCJOHR6jZLGWAdtuN15Zz5eMu4ygNuQEMVdj12ayJUnOzFs8JDNBZpsEXU9aO1GylHwYoMTMh8uBRNVTI7HvfXBNcKB7L5f1kyXQht9OjC1Q==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "TV PUBLICA",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYsycljshYOE5APoSqokoO+u4Zoxuor9c+g5+K0MCZF5GtJNmhcHVrnjweraT290ucD",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b15474cab91.39233689.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkxOLrIFwEnapoIFXWV4JaKZNGS+OkDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq/SRXhcM+xMxKjdqUIpODdrV9dNK3UEtP5PQ==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "CAZÉ TV",
-                "url": "ll/PKCDa8SkRnbLgEi2ZSY3PLxMaR51uh7B6SyAUvN+tNhRtdwwpc0UYniGn/wHPFo5/cF9uPh0Ga/cN8/Uu//uynsTJa8l0fvTDONEqV3U=",
-                "type": "HLS",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a493453632e67.97200594.png"
-            },
-            {
-                "name": "LA 1 MUNDIAL",
-                "url": "KyJ6WHADd109GhmgRtTdP3IByxzkPfvPOH9/pGE1U9Xpa3DHmbbP5dtQNxhhXq5UPz3kR2nX95DTYrBeIHqM1rgwiI0V5R3tlsp01e2MJhiK0TFe0VFoiO2tBeq6mxxpwvNuHNnZUJXfZgeN8F9z99O4BlkLGxSH/xTe9GqO5+8=",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b166ac6f132.47951373.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389Ck4go+f0VsjssI7q+XNLeViPTe/7ro46lWFq6XjIG1w1dlrTr6tu0/fM/fwAcq16AioQfPOmL+GZNHEoAp96uvnKLu9VI74W04mh3HMM3HnHg=="
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
+                "headers": {
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
+                }
             },
             {
-                "name": "Telemundo Mundial",
-                "url": "S44J7Zi7kSAbXG+QemNBoD7Hj8eANlma6+7tEv7YiGepxBlSIred2Vl3og55HNuJPc2CsKShXhAYxuDvIM1dLy2UrQgx2yPUZz0QxKAxY6I=",
-                "type": "HLS",
-                "icono": "https://i.ibb.co/Jw8DxVSH/Picsart-26-06-30-23-01-14-824.png"
-            },
-            {
-                "name": "FOX 4K",
-                "url": "/gxWTLHb17ZKs4wVJ+lmRgwiPBAcf6JjR5cC4+aLdBZ9tX1Nlm56fMaq1/a2zJEwmpO1B+0svqf1lFz9u/L4SQNMZHHkcF3WWKcJO1qPdFVp+b+uwPewf06MbHoNsaxjHB1WvapONI1s1nqXYh56lSizn4CnhDtb2pN7nYEDtjI=",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://i.ibb.co/21w1QSSZ/Picsart-26-07-06-15-56-34-735.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CliTLeOIcvkT9vemrwqL0rjh0aqMI6laHNH5La1HEwu+M11IeWZVn1Lxdfo8Qta6OWEZR1BmY8IZzeB/EYhz0gOrYKbuRzJ41m87FQnUS0Jvg=="
-            }
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
+                "headers": {
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
+                }
+            },
+            {
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
+                "type": "CLEARKEY",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
+                "headers": {
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
+                }
+            },
+            {
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
+                "type": "CLEARKEY",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
+                "headers": {
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
+                }
         ]
     },
     {
         "name": "📺  ARGENTINA🇦🇷",
         "samples": [
             {
-                "name": "Telefe",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYsVtSnBkc/vZWTVfExllbjY5cNaX/bSAn8eAwYCU7gqSF/0TG9tZfQJnRhKbX+Mj3X",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4933934bd7c8.23823779.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkgkVWN8DwsuLL3zG9p8AJwN+bhyzGV+ITdn6nPKBIBZDohqIBJQLoYAC5Ye5AB0oxx6uOxKo03fIKXpg/T8uAcW47c4tb4GKNKU8t4sUI8dQ==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "El Trece",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ040XYWf+51yzrDgTjrFLF2udvBy4TkMOflhWy+5LfxLczsICx0ZCh3/C/CeGzG92OkJ/0TG9tZfQJnRhKbX+Mj3X",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/tv/banners/6a05f1f48a4a31.05557666.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CmJ10hXmp3XC1XtLmdPEwOKvz2sBvPYPc0gcQoOaHJ8EL9lYCHrcV2ZXOnvAXB+NYjQSzHnRhf5hE7qWIAyqNxS/NAtUBI8x5iitXC/gjlvwQ==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "America TV",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ040XYWf+51yzrDgTjrFLF2udGtCSNB+PdV2eCTYGLNmwxpmkM4e9IpE6OH51mN9tG23/O3sWY1dR+yUfR4wxccS5",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://solparaguay.qvixprimary.com/assets/resources/img/channels/america-py_e8a333d19ed446eab9418d61bb6a6b6a.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CmubJx3gEIVIleQQspN/jOU5chUNDLh5gFSL3qh7esWSAdWLvkjp8V1qCL5C6+5hjp1hbb9XN+CcTcLWhEU9S1xc148+bbJgK8yGwqbQTakBw==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "El Nueve",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ040XYWf+51yzrDgTjrFLF2udzR0PYuYuJDv9G5pycfb7T0cuWheuh7kcGHNEDhgoRcNJNmhcHVrnjweraT290ucD",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4551e90ea4d4.06566791.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CnNDfSN88ikSgz6YrVQvzGLqdPcvCwE7Z1srMGnhLtTfs4EFF8c3nEnIoIaQbylGimY5CAEDQnaKQjj/jYfw4HmdR20XK38Wx9ygsGWwZAo5A==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "TV Publica",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYsycljshYOE5APoSqokoO+u4Zoxuor9c+g5+K0MCZF5GtJNmhcHVrnjweraT290ucD",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b15474cab91.39233689.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkxOLrIFwEnapoIFXWV4JaKZNGS+OkDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq/SRXhcM+xMxKjdqUIpODdrV9dNK3UEtP5PQ==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Argentinisima",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYsnftbGeoUtAIfvUe2MtQebdXFez6YCX27y2Q3QA3LU07kRKpChPHR/8VanRTLRkCmRR8LmiLq3AkTsVAR8qonQw==",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b1b072d5fa1.00394778.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkO9HLJwe9E49x7Nl+eDDhiV7UaEsTvkQmTZ974DgRs2uJyOmjyDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq/bRHMvQrM04Nnw==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Encuentro",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYsroePbnbBZ5fmb6JOpUKVfZCNXR93QHsST50yV6HZOco/Bkd6XhoFS6nsuv2/64al",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a455107ab08e8.84804268.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CmVOlowbWbfif4Zwc8LrPW+aAir7I2bEF7zSyxazsETI1KwCxB0NPfI2cDBG+JBiy/8Q9MUXLAzL8TirI5QjhQSUjK4JdsnKzKS6NCWs7a6YA==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Cine AR",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYseS0RDyfyR+8t/RoOOXN7/DcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4552d9e338b2.63837476.jpg",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CkOwntMtTHbx4jFnCDDZ3FmEnRYVGmabfIheO+zwke9EUbkV0GFKXPWw3qqf7bnJkDgvK0NfD+gFwc00i0b/MgDhdoovFfwWkSpkFFrcRgagg==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Volver",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYsPewt0yS8Sm6pKQsLevvRAzAkwH6Z60H0d4Cduwt9jqhJNmhcHVrnjweraT290ucD",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4556025ed136.90402789.jpg",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389Ckxs1WbyOhn3rtLQ2hU7+6a832r6UoDZnicIgnmpGZXGvsTLtSyMQfA68TTr74PdsgcviKNekUgYaAY130rVDef1h1quoxUb8lkYYD+7CmJnA==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Bravo TV",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042GcpaYsE2muOvqSmPxnlPRdr+fW4etaAe1cYPhqCvMonFfvl1kRwVgbi6jfMvyLIQfwGdTotZyEDLMEoYyG0RJ",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a455787b710c3.74422563.jpg",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389Ckaq/Lx9TiYckCQsmQk+uIRRbPRvPeB/eON4kTGy8GLIa9xszq/EWYrohWLpT+mUjIYCJ2eYur2XoD+qyXHzL5BNhRSrfvwIymxa1eHUnL4NA==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Canal (a)",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYsrAsFuOjEw6NRcIOuk6UrJXxl3iMHYd6yyNpdWmg6mcEfwGdTotZyEDLMEoYyG0RJ",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b1b2c994910.84491520.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CnQaUkbrfEEN2VfxVa8T4tQ074RUSv9urgpHLgfgpkr+VN2FVRgVNNHMTamF+/sekgbvhCix1YD7JO/3/btxFB6i62C6qxmBcxdaIjOFEu35Q==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Canal de la Ciudad",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYsdXn+MDavzqOcwGk0Mc5h4Pnac4iyY9b+pOxTFAfRMrhAFAVsEg1Kcril6kHIU5FMiyuaBuVVRj69EOpi+yA67g==",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4558f0b09280.15874694.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CmL4xg15NnDfDN2EPbTCmafpfWX6XoPOnTFQnF9cGBcLlqwxZbYd6pGlpCh952KjuPvhxMNXWUzBPGvGnBlJtnGkUtfJtbnJz0xVWT/b9B8sg==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Canal Rural",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYson4u42CfZaq11HafOlyUtPbKIpojYQCtlr/GWSnXQYedhBCr02tXMcAoBNeo2EDr",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a455a4d6777e9.73181537.webp",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CmVXDbYB17vNcWOztnP9KV6d4lzH7D/diQrXtR64DshQq0VYcrtHgjTaePc+kMHxAElvPmq04jSHQzTNQxHAVuXGLIJgFYRwk1lfuSMIYJmXQ==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Ciudad Magazine",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ040XYWf+51yzrDgTjrFLF2udtD1zO43uqNRsnP8TmFcXLVOemBIkNT4afOoxiVlOpKCt0mu3qzG2Hk9vUkxj13Xv",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a455aa57e1939.76346802.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389ClJo9kl1UNQVAOhvbNo4pJ2DT5BimA9TA76O8e0vOeoR9BmNbOVIeB806eJUSGWV4kB8WTFSjNBPwUHwp2u8RhfqvO1MYFO/0y4rpwzekmcmA==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "DeporTV",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ040XYWf+51yzrDgTjrFLF2udCamMQggNL+TtS0KG/FGf565PBT3PPI5m83GH9zy4m+fYyAOvzt6RpuPTHjhPq/kQ",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b129ebe30f4.86575583.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CnHuevIPdkRTDm/oVCYOrJ+cSnSm/v3Pv1gG0qKIjy7WrPRyuNEpHbbHk6bMG9Tow0cYjhlpxqn/GAZho3rBaP8uRb+dINPOTxiRFSzuT5mPw==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Garage TV",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYsTczCvXPNqTrX0ipPw8oVxGa+2YrBlfgldXYaU7218eE2v/c56gcWinpWnYI6JTNd",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a455cad0799b2.64327257.jpg",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389Cmm7x3xNED3mnHD9JIcy0fZgIIIWw3gTENBNd1yGccThCCpuHMkETl+2Yz56rpL1VxBe0mEC5HWI6EtFC/UKLRrjTS9cjfJwk9bheTe6adh6g==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Mix TV",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042aHE1jISJ+dUrtUvhA0r/+OgNx2fh7O1HLzcx0N4JFTg5bt1uZ733vt/8JvRimsXxFHwuaIurcCROxUBHyqidD",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b14e1576ff5.50963020.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389Cn1UxwFgAOL8ksMr8l+pbPGE3VAylbuCACTly+JBuYJoY7t+dnpOFYsm57COPxc3akLoRjEUhImGARYquWXY/CxjY3wrCYaDojg9v0hpG4/6Q==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Telemax",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYsAgvde28xGkdlZxejFUI1oG7g+Gf1MMrFnWF98Zv5bewfwGdTotZyEDLMEoYyG0RJ",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a4b1841bcf880.14149686.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CktLLY2nV4BiIYkfm8Me/JKuPKL4UgLaeD0039FJHRR9CEOWa60D1yQtCzzRTIHnyAzUO+zNDI9JQ3mAj6MmrHvB1M/rkRhTXf2QR7FdOkGnQ==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "Telefe Internacional",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ042aHE1jISJ+dUrtUvhA0r/+0jFfEFl6fTdPGnTEH7e43Pswqzh/MEeyN6Vz/SJ0hIZoBJ0ugH6x3tf8ncCpP6WOM9z8WMshkXj09k1PcI+AXQ==",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a455defd05e16.78707850.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CmdxNpgiPM2pMRKIztEGXirQKCVaBGfZP2Z5IjVyAr68zx1tvo6e+QXbhUion/L3+aX5bmM89HOoNN9RqnWJX3d/WGzselKhJjzyWAP5j30qg==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             },
             {
-                "name": "El Trece Internacional",
-                "url": "Ug4NRjPRVXJX4wvre9RZl15Yx03gzYcgJjelY7UJ041KizubQ+6UE/gMBSrPpTYskio/AyIyrE3ajb3RINXJzvswqzh/MEeyN6Vz/SJ0hIaN119sRFORhWp3gaQrhhLZM9z8WMshkXj09k1PcI+AXQ==",
+                "name": "SKY ONE",
+                "url": "https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd",
                 "type": "CLEARKEY",
-                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a455e50420740.69030755.png",
-                "drm_license_uri": "/z3lYyHgVlZ98676bMlcF1yeldDCvttUbYZIeh389CnbGTV+VBdN/HCJ0CRX3C15AOoXRLtPOLUYODtDzZm2Lv6BufYpQ2Amgq6ikF+TqtCsqxBlIXZerfCCmjuhPhhE02WONcmUYrWGEDGaZtie4g==",
+                "icono": "https://app.femon.net/femonplus/panel-contenido/../panel-banners/img/6a453a3bd3d1e5.25086301.png",
+                "drm_license_uri": "https://clkey.vercel.app/api/results.php?keyid=96f177548046a9f56bbb39a900a82ddd&key=96aa836072fd84c9a8e6219652330272",
                 "headers": {
-                    "Accept": "cGG1d1Qjasa4o2/5juGnwA==",
-                    "Accept-Language": "nrWjjwyL6m8PPreryOC2SWXTd8mC80WZTSlrqTNjEa0=",
-                    "Connection": "0Sf66v9JlXrwP7+Mp6zxBQ==",
-                    "Origin": "zfJyzcQCSRymYFQxADBCRGtdDvAYzViG7UW7DowGT0c=",
-                    "Referer": "zfJyzcQCSRymYFQxADBCRCgZBe/aHuac1L6HgLJ7dIQ=",
-                    "Sec-Fetch-Dest": "6f3ZGvc30TBNRSfGlfLdFg==",
-                    "Sec-Fetch-Mode": "ljhwokoTl7KZb18wHFPhaA==",
-                    "Sec-Fetch-Site": "vKnWXMCqGY7G+N/sWJoKpg==",
-                    "User-Agent": "5yNC/q7GdgUoH3pVyumJVzGbD207BO0kC4M4XYdv48hU2h0MOETQa0j7NfAwzG9hOXSFYZyfvpCw75U1nBicuVud+1sYuCnleW624At1IhDcJHrrHSgvFpsYxqb6g97uaQTd2kE31rPUeDZTeDsjVq==",
-                    "sec-ch-ua": "2/aY0gYqUDJfJTbWg3tiDT9atUDNVpTu73DjTKPqNZAJ6s+nCVs60kcKvjGn74STX6Do7fDGRwbgUXNlXFfh69zUxyHGaiMAhfPb9m7HsdY=",
-                    "sec-ch-ua-mobile": "IG1bJ1dN2+15aX+MPlzTfw==",
-                    "sec-ch-ua-platform": "NfE7pc0fEfjQMP29Lsh90Q=="
+                    "User-Agent": "Sky_STB_BCM7278_2019/1.0.0 (Sky, ES340UK, )"
                 }
             }
         ]
