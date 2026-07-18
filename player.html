@@ -1,266 +1,1803 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<style>
-html, body{
-  margin:0;
-  padding:0;
-  height:100%;
-  overflow:hidden;
-  position:fixed;
-  width:100%;
-  left:0;
-  top:0;
-}
-#flow-player{
-  max-width:1000px;
-  margin:auto;
-  position:relative;
-  background:#000;
-  border-radius:10px;
-  overflow:hidden;
-  font-family:Arial, sans-serif;
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Imperio Player PRO</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+
+            background:#111;
+
+            font-family:Arial,Helvetica,sans-serif;
+
+            color:#FFF;
+
+            display:flex;
+
+            min-height:100vh;
+
+        }
+
+        /*=============================
+                PANEL IZQUIERDO
+        =============================*/
+
+        .sidebar{
+
+            width:340px;
+
+            background:#1b1b1b;
+
+            padding:20px;
+
+            overflow:auto;
+
+            border-right:1px solid #333;
+
+        }
+
+        .logo{
+
+            text-align:center;
+
+            font-size:30px;
+
+            font-weight:bold;
+
+            color:#00a8ff;
+
+            margin-bottom:25px;
+
+        }
+
+        h3{
+
+            margin-top:15px;
+
+            margin-bottom:8px;
+
+            color:#dddddd;
+
+        }
+
+        input{
+
+            width:100%;
+
+            padding:12px;
+
+            background:#2a2a2a;
+
+            color:white;
+
+            border:none;
+
+            border-radius:6px;
+
+            margin-bottom:15px;
+
+            outline:none;
+
+            font-size:14px;
+
+        }
+
+        textarea{
+
+            width:100%;
+
+            height:220px;
+
+            resize:vertical;
+
+            background:#2a2a2a;
+
+            color:#fff;
+
+            border:none;
+
+            border-radius:6px;
+
+            padding:10px;
+
+            font-size:13px;
+
+            outline:none;
+
+            margin-bottom:15px;
+
+        }
+
+        button{
+
+            width:100%;
+
+            padding:12px;
+
+            border:none;
+
+            border-radius:6px;
+
+            cursor:pointer;
+
+            margin-top:10px;
+
+            font-size:15px;
+
+            transition:.2s;
+
+        }
+
+        #btnLoad{
+
+            background:#0d6efd;
+
+            color:white;
+
+        }
+
+        #btnLoad:hover{
+
+            background:#0b5ed7;
+
+        }
+
+        #btnClear{
+
+            background:#555;
+
+            color:white;
+
+        }
+
+        #btnClear:hover{
+
+            background:#777;
+
+        }
+
+        .status{
+
+            margin-top:20px;
+
+            background:#202020;
+
+            border-radius:6px;
+
+            padding:10px;
+
+            font-size:13px;
+
+            line-height:22px;
+
+        }
+
+        .status span{
+
+            color:#38bdf8;
+
+        }
+
+        /*=============================
+                PANEL DERECHO
+        =============================*/
+
+        .player{
+
+            flex:1;
+
+            display:flex;
+
+            flex-direction:column;
+
+            padding:20px;
+
+        }
+
+        .video-container{
+
+            width:100%;
+
+            background:black;
+
+            border-radius:10px;
+
+            overflow:hidden;
+
+            box-shadow:0 0 20px rgba(0,0,0,.5);
+
+        }
+
+        video{
+
+            width:100%;
+
+            height:auto;
+
+            display:block;
+
+            background:black;
+
+        }
+
+        .toolbar{
+
+            margin-top:20px;
+
+            display:flex;
+
+            gap:10px;
+
+            flex-wrap:wrap;
+
+        }
+
+        select{
+
+            background:#2b2b2b;
+
+            color:white;
+
+            border:none;
+
+            padding:10px;
+
+            border-radius:5px;
+
+            min-width:180px;
+
+        }
+
+        .info{
+
+            margin-top:20px;
+
+            background:#202020;
+
+            border-radius:8px;
+
+            padding:15px;
+
+            line-height:26px;
+
+            font-size:14px;
+
+        }
+
+        .info strong{
+
+            color:#00a8ff;
+			
+			.toolbar2{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-top:15px;
+
 }
 
-#flow-player video{
-  width:100%;
-  height:100%;
-  object-fit:contain;
-  background:#000;
-  display:block;
+.toolbar2 button{
+
+    flex:1;
+
+    min-width:150px;
+
 }
 
-#flow-player .controls{
-  position:absolute;
-  left:0; right:0; bottom:0;
-  display:flex;
-  align-items:center;
-  gap:12px;
-  padding:10px 14px;
-  background:linear-gradient(to top,rgba(0,0,0,.9),transparent);
-  transition:opacity .25s;
+.toolbar2 select{
+
+    min-width:120px;
+
 }
 
-#flow-player input[type=range]{
-  flex:1;
-  -webkit-appearance:none;
-  appearance:none;
-  height:6px;
-  border-radius:3px;
-  background:#fff;
-}
-#flow-player input[type=range]::-webkit-slider-thumb{width:0;height:0;}
-#flow-player input[type=range]::-moz-range-thumb{width:0;height:0;border:0;}
+        }
 
-#flow-player button{
-  background:none;
-  border:0;
-  cursor:pointer;
-  width:34px;
-}
+    </style>
 
-#fp_fs{
-  position:absolute;
-  top:10px;
-  right:10px;
-  z-index:5;
-  transition:opacity .25s;
-}
-
-#fp_qmenu{
-  position:absolute;
-  bottom:60px;
-  right:10px;
-  background:#111;
-  color:#fff;
-  border-radius:6px;
-  display:none;
-  font-size:13px;
-  z-index:6;
-}
-#fp_qmenu div{padding:6px 10px;cursor:pointer;}
-#fp_qmenu div:hover{background:#222;}
-
-#flow-player.ios-landscape{
-  transform:rotate(90deg);
-  transform-origin:center;
-  width:100vh!important;
-  height:100vw!important;
-  position:fixed!important;
-  top:0; left:0;
-  z-index:9999;
-}
-
-#flow-player.hide-ui .controls,
-#flow-player.hide-ui #fp_fs{
-  opacity:0;
-  pointer-events:none;
-}
-</style>
 </head>
 
 <body>
 
-<div id="flow-player">
+    <div class="sidebar">
 
-  <video id="fp_video" playsinline autoplay></video>
+        <div class="logo">
 
-  <button id="fp_fs">
-    <svg viewBox="0 0 24 24" width="26" height="26"
-      stroke="#14abd1" stroke-width="3" fill="none">
-      <path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/>
-    </svg>
-  </button>
+            IMPERIO PLAYER PRO
 
-  <div class="controls">
-    <button id="fp_play">
-      <svg id="fp_icoPlay" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg>
-      <svg id="fp_icoPause" viewBox="0 0 24 24" fill="#fff" style="display:none"><path d="M6 19h4V5H6zm8-14v14h4V5z"/></svg>
+        </div>
+
+        <h3>URL del Stream</h3>
+
+        <input
+            id="stream_url"
+            type="text"
+            placeholder="https://servidor.com/live.mpd">
+
+        <h3>Multi KID : KEY</h3>
+
+        <textarea
+            id="stream_keys"
+            placeholder="
+
+kid1:key1
+kid2:key2
+kid3:key3
+
+"></textarea>
+
+        <button
+            id="btnLoad"
+            onclick="iniciar()">
+
+            ▶ Cargar Stream
+
+        </button>
+
+        <button
+            id="btnClear"
+            onclick="limpiarFormulario()">
+
+            🗑 Limpiar
+			<hr>
+
+<h3>Historial</h3>
+
+<datalist id="historyList"></datalist>
+
+<input
+list="historyList"
+id="historyInput"
+placeholder="Streams recientes">
+
+<button onclick="
+
+document.getElementById('stream_url').value=
+
+document.getElementById('historyInput').value;
+
+">
+
+Usar del historial
+
+</button>
+
+<hr>
+
+<h3>Favoritos</h3>
+
+<datalist id="favoriteList"></datalist>
+
+<input
+list="favoriteList"
+id="favoriteInput"
+placeholder="Favoritos">
+
+<button onclick="
+
+document.getElementById('stream_url').value=
+
+document.getElementById('favoriteInput').value;
+
+">
+
+Usar favorito
+
+</button>
+
+<button onclick="agregarFavorito()">
+
+⭐ Agregar a favoritos
+
+</button>
+
+        </button>
+
+        <div class="status">
+
+            <b>Estado</b>
+
+            <br><br>
+
+            URL:
+            <span id="estadoURL">
+
+                Ninguna
+
+            </span>
+
+            <br>
+
+            DRM:
+            <span id="estadoDRM">
+
+                Esperando...
+
+            </span>
+
+            <br>
+
+            Player:
+            <span id="estadoPlayer">
+
+                No iniciado
+
+            </span>
+
+        </div>
+
+    </div>
+
+    <div class="player">
+
+        <div class="video-container">
+
+            <video
+                id="video"
+                controls
+                autoplay>
+
+            </video>
+<div class="toolbar2">
+
+    <button id="btnPlayPause">
+
+        ⏯ Play / Pause
+
     </button>
 
-    <input id="fp_bar" type="range" value="0" min="0" step="0.1">
+    <button id="btnMute">
 
-    <button id="fp_mute">
-      <svg viewBox="0 0 24 24" fill="#fff"><path d="M3 10v4h4l5 5V5L7 10z"/></svg>
+        🔊 Silencio
+
     </button>
 
-    <button id="fp_gear">
-      <svg viewBox="0 0 24 24" width="24" height="24" fill="#14abd1">
-        <path d="M19.4 13.5c.04-.5.06-1 .06-1.5s-.02-1-.06-1.5l2.11-1.65a.5.5 0 0 0 .12-.64l-2-3.46a.5.5 0 0 0-.6-.22l-2.49 1a7.03 7.03 0 0 0-2.6-1.5l-.38-2.65A.5.5 0 0 0 13.1 1h-4a.5.5 0 0 0-.5.42l-.38 2.65a7.03 7.03 0 0 0-2.6 1.5l-2.49-1a.5.5 0 0 0-.6.22l-2 3.46a.5.5 0 0 0 .12.64L2.6 10.5c-.04.5-.06 1-.06 1.5s.02 1 .06 1.5L.49 15.15a.5.5 0 0 0-.12.64l2 3.46c.14.24.43.34.69.22l2.49-1a7.03 7.03 0 0 0 2.6 1.5l.38 2.65c.04.24.25.42.5.42h4c.25 0 .46-.18.5-.42l.38-2.65a7.03 7.03 0 0 0 2.6-1.5l2.49 1c.26.12.55.02.69-.22l2-3.46a.5.5 0 0 0-.12-.64L19.4 13.5zM11 15.5A3.5 3.5 0 1 1 11 8a3.5 3.5 0 0 1 0 7.5z"/>
-      </svg>
-    </button>
-  </div>
+    <button id="btnFullscreen">
 
-  <div id="fp_qmenu"></div>
+        ⛶ Pantalla Completa
+
+    </button>
+
+    <button id="btnPiP">
+
+        🖼 PiP
+
+    </button>
+
+    <select id="speedControl">
+
+        <option value="0.5">0.5x</option>
+        <option value="0.75">0.75x</option>
+        <option value="1" selected>1x</option>
+        <option value="1.25">1.25x</option>
+        <option value="1.5">1.5x</option>
+        <option value="2">2x</option>
+
+    </select>
+
 </div>
+        </div>
+		        <div class="toolbar">
 
-<!-- Shaka Player -->
-<script src="https://cdn.jsdelivr.net/npm/shaka-player@4.3.5/dist/shaka-player.compiled.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/shaka-player@4.3.5/dist/shaka-player.ui.js"></script>
+            <select id="qualitySelect">
 
-<script>
-const video = document.getElementById("fp_video");
-const bar = document.getElementById("fp_bar");
-const play = document.getElementById("fp_play");
-const icoPlay = document.getElementById("fp_icoPlay");
-const icoPause = document.getElementById("fp_icoPause");
-const mute = document.getElementById("fp_mute");
-const fs = document.getElementById("fp_fs");
-const gear = document.getElementById("fp_gear");
-const qmenu = document.getElementById("fp_qmenu");
-const box = document.getElementById("flow-player");
+                <option value="">Calidad Automática</option>
 
-video.muted=false;
+            </select>
 
-/* ===== Shaka Player multikey ClearKey ===== */
-const manifestUri = "url";
+            <select id="audioSelect">
 
-/* %D%0 CLEARKEY MULTIKEY (acepta 2, 3, 10+ keys) */
-const clearKeys = {
-  "kid": "key",
-  "kid": "key",
-  "kid": "key"
-};
+                <option value="">Audio</option>
 
-async function initShaka() {
-  shaka.polyfill.installAll();
-  if (!shaka.Player.isBrowserSupported()) {
-    console.error("Shaka Player no soportado");
-    return;
-  }
+            </select>
 
-  const player = new shaka.Player(video);
+            <select id="subtitleSelect">
 
-  player.configure({
-    drm: { clearKeys: clearKeys },
-    abr: { enabled: false },
-    preferredAudioLanguage: "es",
-    preferredTextLanguage: "es"
-  });
+                <option value="">Subtítulos</option>
 
-  player.addEventListener("error", e => console.error("Shaka error:", e.detail));
+            </select>
 
-  try {
-    await player.load(manifestUri);
-    console.log("MPD cargado con éxito (multikey ClearKey)");
-  } catch (e) {
-    console.error("Error cargando MPD:", e);
-  }
+        </div>
 
-  // Menú calidad Shaka
-  const tracks = player.getVariantTracks();
-  qmenu.innerHTML="";
-  const auto = document.createElement("div");
-  auto.textContent="Auto";
-  auto.onclick = () => { player.configure({abr:{enabled:true}}); qmenu.style.display="none"; };
-  qmenu.appendChild(auto);
-  tracks.filter(t=>t.height)
-        .sort((a,b)=>b.height-a.height)
-        .forEach(t=>{
-          const d = document.createElement("div");
-          d.textContent = t.height+"p";
-          d.onclick = ()=>{
-            player.configure({abr:{enabled:false}});
-            player.selectVariantTrack(t,true);
-            qmenu.style.display="none";
-          };
-          qmenu.appendChild(d);
-        });
+        <div class="info">
+
+            <div>
+
+                <strong>Resolución:</strong>
+
+                <span id="infoResolution">
+
+                    -
+
+                </span>
+
+            </div>
+
+            <div>
+
+                <strong>Codec:</strong>
+
+                <span id="infoCodec">
+
+                    -
+
+                </span>
+
+            </div>
+
+            <div>
+
+                <strong>Audio:</strong>
+
+                <span id="infoAudio">
+
+                    -
+
+                </span>
+
+            </div>
+
+            <div>
+
+                <strong>Subtítulos:</strong>
+
+                <span id="infoSubtitle">
+
+                    -
+
+                </span>
+
+            </div>
+
+            <div>
+
+                <strong>Manifest:</strong>
+
+                <span id="infoManifest">
+
+                    -
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--==========================
+            SHAKA PLAYER
+    ===========================-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.13.5/shaka-player.compiled.min.js"></script>
+
+    <script>
+
+        let player = null;
+
+        let video = document.getElementById("video");
+
+        let qualitySelect = document.getElementById("qualitySelect");
+
+        let audioSelect = document.getElementById("audioSelect");
+
+        let subtitleSelect = document.getElementById("subtitleSelect");
+
+        let infoResolution = document.getElementById("infoResolution");
+
+        let infoCodec = document.getElementById("infoCodec");
+
+        let infoAudio = document.getElementById("infoAudio");
+
+        let infoSubtitle = document.getElementById("infoSubtitle");
+
+        let infoManifest = document.getElementById("infoManifest");
+
+        function limpiarFormulario(){
+
+            document.getElementById("stream_url").value="";
+
+            document.getElementById("stream_keys").value="";
+
+            document.getElementById("estadoURL").innerHTML="Ninguna";
+
+            document.getElementById("estadoDRM").innerHTML="Esperando...";
+
+            document.getElementById("estadoPlayer").innerHTML="No iniciado";
+
+        }
+
+        function parseKeys(text){
+
+            const clearKeys={};
+
+            const lines=text.split(/\r?\n/);
+
+            for(let line of lines){
+
+                line=line.trim();
+
+                if(line==="") continue;
+
+                line=line.replace("=",":");
+
+                const parts=line.split(":");
+
+                if(parts.length<2) continue;
+
+                const kid=parts[0].trim();
+
+                const key=parts.slice(1).join(":").trim();
+
+                if(kid!="" && key!=""){
+
+                    clearKeys[kid]=key;
+
+                }
+
+            }
+
+            return clearKeys;
+
+        }
+
+        async function destruirPlayer(){
+
+            if(player){
+
+                try{
+
+                    await player.destroy();
+
+                }
+
+                catch(e){}
+
+                player=null;
+
+            }
+
+        }
+        async function iniciar(){
+
+            const url=document
+                .getElementById("stream_url")
+                .value
+                .trim();
+
+            const keys=parseKeys(
+
+                document
+                    .getElementById("stream_keys")
+                    .value
+
+            );
+
+            if(url===""){
+
+                alert("Debe ingresar una URL.");
+
+                return;
+
+            }
+
+            document.getElementById("estadoURL").innerHTML=url;
+
+            document.getElementById("estadoPlayer").innerHTML="Inicializando...";
+
+            document.getElementById("estadoDRM").innerHTML="Configurando";
+
+            infoManifest.innerHTML="-";
+
+            infoResolution.innerHTML="-";
+
+            infoCodec.innerHTML="-";
+
+            infoAudio.innerHTML="-";
+
+            infoSubtitle.innerHTML="-";
+
+            qualitySelect.innerHTML=
+                '<option value="">Calidad Automática</option>';
+
+            audioSelect.innerHTML=
+                '<option value="">Audio</option>';
+
+            subtitleSelect.innerHTML=
+                '<option value="">Subtítulos</option>';
+
+            await destruirPlayer();
+
+            shaka.polyfill.installAll();
+
+            if(!shaka.Player.isBrowserSupported()){
+
+                alert("Este navegador no soporta Shaka Player.");
+
+                return;
+
+            }
+
+            player=new shaka.Player(video);
+			
+			registrarErrores();
+
+registrarEventosPlayer();
+
+            window.player=player;
+
+            player.addEventListener(
+
+                "error",
+
+                function(event){
+
+                    console.error(event.detail);
+
+                    alert(event.detail.message);
+
+                }
+
+            );
+
+            player.configure({
+
+                streaming:{
+
+                    bufferingGoal:30,
+
+                    rebufferingGoal:15,
+
+                    bufferBehind:30
+
+                },
+
+                drm:{
+
+                    clearKeys:keys
+
+                }
+
+            });
+
+            document.getElementById("estadoDRM").innerHTML=
+
+                Object.keys(keys).length+" Key(s)";
+
+            try{
+
+                await player.load(url);
+				agregarHistorial(url);
+				function cargarArchivoM3U(event){
+
+    const archivo=event.target.files[0];
+
+    if(!archivo) return;
+
+    const lector=new FileReader();
+
+    lector.onload=function(e){
+
+        interpretarM3U(e.target.result);
+
+    };
+
+    lector.readAsText(archivo);
+
 }
 
-initShaka();
+function interpretarM3U(texto){
 
-/* ===== TUS CONTROLES %4 NO TOCADOS ===== */
-play.onclick=()=> video.paused?video.play():video.pause();
-video.onplay=()=>{icoPlay.style.display="none"; icoPause.style.display="block"; showUI();};
-video.onpause=()=>{icoPlay.style.display="block"; icoPause.style.display="none"; box.classList.remove("hide-ui");};
+    canales=[];
 
-video.ontimeupdate=()=>{bar.max=video.duration||0; bar.value=video.currentTime;};
-bar.oninput=()=> video.currentTime=bar.value;
+    const lineas=texto.split(/\r?\n/);
 
-mute.onclick=()=> video.muted=!video.muted;
+    let nombre="";
 
-function toggleFS(){if(!document.fullscreenElement) box.requestFullscreen();else document.exitFullscreen();}
-fs.onclick=toggleFS;
+    for(let linea of lineas){
 
-video.ondblclick=toggleFS;
-let lastTap=0;
-video.ontouchend=()=>{
-  const now=Date.now();
-  if(now-lastTap<300) toggleFS();
-  lastTap=now;
-};
+        linea=linea.trim();
 
-gear.onclick=()=>{qmenu.style.display = qmenu.style.display==="block"?"none":"block";};
+        if(linea.startsWith("#EXTINF")){
 
-/* landscape */
-const isIOS=/iPhone|iPad|iPod/.test(navigator.userAgent);
-document.addEventListener("fullscreenchange", async()=>{
-  if(document.fullscreenElement){
-    if(!isIOS && screen.orientation?.lock){ try{await screen.orientation.lock("landscape")}catch(e){} }
-    if(isIOS) box.classList.add("ios-landscape");
-  }else{
-    if(!isIOS && screen.orientation?.unlock){ try{screen.orientation.unlock()}catch(e){} }
-    box.classList.remove("ios-landscape");
-  }
-});
+            const partes=linea.split(",");
 
-/* auto hide */
-let uiTimer;
-function showUI(){
-  box.classList.remove("hide-ui");
-  clearTimeout(uiTimer);
-  if(!video.paused){
-    uiTimer=setTimeout(()=>{box.classList.add("hide-ui");},2500);
-  }
+            nombre=partes.length>1 ? partes[1] : "Canal";
+
+        }
+
+        else if(linea.startsWith("http")){
+
+            canales.push({
+
+                nombre:nombre,
+
+                url:linea
+
+            });
+
+        }
+
+    }
+
+    mostrarCanales(canales);
+
 }
-box.addEventListener("mousemove",showUI);
-box.addEventListener("touchstart",showUI);
-box.addEventListener("click",showUI);
-</script>
 
-</body>
-</html>
+function mostrarCanales(lista){
+
+    listaCanales.innerHTML="";
+
+    lista.forEach((canal,index)=>{
+
+        const option=document.createElement("option");
+
+        option.value=index;
+
+        option.text=canal.nombre;
+
+        listaCanales.appendChild(option);
+
+    });
+
+}
+
+function cargarCanalSeleccionado(){
+
+    if(listaCanales.selectedIndex==-1)
+
+        return;
+
+    document.getElementById("stream_url").value=
+
+        canales[listaCanales.value].url;
+
+    iniciar();
+
+}
+buscarCanal.addEventListener(
+
+    "input",
+
+    function(){
+
+        const texto=this.value.toLowerCase();
+
+        const filtrados=
+
+            canales.filter(c=>
+
+                c.nombre.toLowerCase()
+
+                .includes(texto)
+
+            );
+
+        mostrarCanales(filtrados);
+
+    }
+
+);
+
+                document.getElementById("estadoPlayer").innerHTML="Conectado";
+
+                if(url.toLowerCase().includes(".mpd")){
+
+                    infoManifest.innerHTML="MPEG-DASH";
+
+                }
+
+                else if(url.toLowerCase().includes(".m3u8")){
+
+                    infoManifest.innerHTML="HLS";
+
+                }
+
+                else{
+
+                    infoManifest.innerHTML="Detectado";
+
+                }
+
+                cargarCalidades();
+
+                cargarAudios();
+
+                cargarSubtitulos();
+
+                actualizarInformacion();
+
+                iniciarMonitor();
+
+            }
+
+            catch(error){
+
+                console.error(error);
+
+                document.getElementById("estadoPlayer").innerHTML="Error";
+
+                alert(error.message);
+
+            }
+
+        }
+		        function cargarCalidades(){
+
+            if(!player) return;
+
+            const tracks=player.getVariantTracks();
+
+            qualitySelect.innerHTML="";
+
+            const auto=document.createElement("option");
+
+            auto.value="AUTO";
+
+            auto.text="Automática";
+
+            qualitySelect.appendChild(auto);
+
+            const resoluciones=[];
+
+            tracks.forEach(track=>{
+
+                if(track.height && !resoluciones.includes(track.height)){
+
+                    resoluciones.push(track.height);
+
+                }
+
+            });
+
+            resoluciones.sort((a,b)=>b-a);
+
+            resoluciones.forEach(height=>{
+
+                const option=document.createElement("option");
+
+                option.value=height;
+
+                option.text=height+"p";
+
+                qualitySelect.appendChild(option);
+
+            });
+
+            qualitySelect.onchange=function(){
+
+                if(this.value==="AUTO"){
+
+                    player.configure({
+
+                        abr:{
+                            enabled:true
+                        }
+
+                    });
+
+                    return;
+
+                }
+
+                player.configure({
+
+                    abr:{
+                        enabled:false
+                    }
+
+                });
+
+                const tracks=player.getVariantTracks();
+
+                const selected=tracks.find(
+
+                    t=>t.height==this.value
+
+                );
+
+                if(selected){
+
+                    player.selectVariantTrack(
+
+                        selected,
+
+                        true
+
+                    );
+
+                }
+
+            };
+
+        }
+
+        function actualizarInformacion(){
+
+            if(!player) return;
+
+            const tracks=player.getVariantTracks();
+
+            const active=tracks.find(
+
+                t=>t.active
+
+            );
+
+            if(!active) return;
+
+            infoResolution.innerHTML=
+
+                active.width+
+
+                " x "+
+
+                active.height;
+
+            infoCodec.innerHTML=
+
+                active.videoCodec ||
+
+                "-";
+
+            if(active.bandwidth){
+
+                const mbps=(
+
+                    active.bandwidth/1000000
+
+                ).toFixed(2);
+
+                infoCodec.innerHTML+=
+
+                    " | "+
+
+                    mbps+
+
+                    " Mbps";
+
+            }
+
+        }
+
+        function iniciarMonitor(){
+
+            setInterval(()=>{
+
+                if(!player) return;
+
+                actualizarInformacion();
+
+            },3000);
+
+        }        function cargarAudios(){
+
+            if(!player) return;
+
+            const tracks=player.getAudioLanguages();
+
+            audioSelect.innerHTML="";
+
+            if(tracks.length===0){
+
+                const option=document.createElement("option");
+
+                option.text="Sin pistas";
+
+                option.value="";
+
+                audioSelect.appendChild(option);
+
+                return;
+
+            }
+
+            tracks.forEach(language=>{
+
+                const option=document.createElement("option");
+
+                option.value=language;
+
+                option.text=language.toUpperCase();
+
+                audioSelect.appendChild(option);
+
+            });
+
+            const actual=player.getConfiguration().preferredAudioLanguage;
+
+            if(actual){
+
+                audioSelect.value=actual;
+
+            }
+
+            audioSelect.onchange=function(){
+
+                player.selectAudioLanguage(this.value);
+
+                infoAudio.innerHTML=this.value.toUpperCase();
+
+            };
+
+        }
+
+        function cargarSubtitulos(){
+
+            if(!player) return;
+
+            subtitleSelect.innerHTML="";
+
+            const off=document.createElement("option");
+
+            off.value="OFF";
+
+            off.text="Desactivados";
+
+            subtitleSelect.appendChild(off);
+
+            const tracks=player.getTextTracks();
+
+            tracks.forEach(track=>{
+
+                const option=document.createElement("option");
+
+                option.value=track.language;
+
+                option.text=track.language.toUpperCase();
+
+                subtitleSelect.appendChild(option);
+
+            });
+
+            subtitleSelect.onchange=function(){
+
+                if(this.value==="OFF"){
+
+                    player.setTextTrackVisibility(false);
+
+                    infoSubtitle.innerHTML="Desactivados";
+
+                    return;
+
+                }
+
+                player.setTextTrackVisibility(true);
+
+                player.selectTextLanguage(this.value);
+
+                infoSubtitle.innerHTML=this.value.toUpperCase();
+
+            };
+
+        }
+
+        function actualizarAudioActivo(){
+
+            if(!player) return;
+
+            const tracks=player.getVariantTracks();
+
+            const active=tracks.find(track=>track.active);
+
+            if(active){
+
+                infoAudio.innerHTML=active.language.toUpperCase();
+
+            }
+
+        }
+
+        function actualizarSubtituloActivo(){
+
+            if(!player) return;
+
+            const tracks=player.getTextTracks();
+
+            const active=tracks.find(track=>track.active);
+
+            if(active){
+
+                infoSubtitle.innerHTML=active.language.toUpperCase();
+
+            }else{
+
+                infoSubtitle.innerHTML="Desactivados";
+
+            }
+
+        }        let ultimoTiempo = 0;
+
+        let reconectando = false;
+
+        function registrarEventosPlayer(){
+
+            video.addEventListener("timeupdate",()=>{
+
+                ultimoTiempo=video.currentTime;
+
+            });
+
+            video.addEventListener("loadedmetadata",()=>{
+
+                if(ultimoTiempo>0){
+
+                    video.currentTime=ultimoTiempo;
+
+                }
+
+            });
+
+            video.addEventListener("waiting",()=>{
+
+                document.getElementById("estadoPlayer").innerHTML="Buffering...";
+
+            });
+
+            video.addEventListener("playing",()=>{
+
+                document.getElementById("estadoPlayer").innerHTML="Reproduciendo";
+
+            });
+
+            video.addEventListener("pause",()=>{
+
+                document.getElementById("estadoPlayer").innerHTML="Pausado";
+
+            });
+
+            video.addEventListener("ended",()=>{
+
+                document.getElementById("estadoPlayer").innerHTML="Finalizado";
+
+            });
+
+        }
+
+function inicializarControles(){
+
+    btnPlayPause.onclick=function(){
+
+        if(video.paused)
+
+            video.play();
+
+        else
+
+            video.pause();
+
+    };
+
+    btnMute.onclick=function(){
+
+        video.muted=!video.muted;
+
+    };
+
+    btnFullscreen.onclick=function(){
+
+        if(document.fullscreenElement){
+
+            document.exitFullscreen();
+
+        }
+
+        else{
+
+            video.requestFullscreen();
+
+        }
+
+    };
+
+    btnPiP.onclick=async function(){
+
+        if(document.pictureInPictureEnabled){
+
+            try{
+
+                if(document.pictureInPictureElement){
+
+                    await document.exitPictureInPicture();
+
+                }
+
+                else{
+
+                    await video.requestPictureInPicture();
+
+                }
+
+            }
+
+            catch(e){
+
+                console.log(e);
+
+            }
+
+        }
+
+    };
+
+    speedControl.onchange=function(){
+
+        video.playbackRate=parseFloat(this.value);
+
+    };
+
+}
+document.addEventListener(
+
+    "keydown",
+
+    function(e){
+
+        if(e.target.tagName==="INPUT" ||
+
+           e.target.tagName==="TEXTAREA")
+
+            return;
+
+        switch(e.key){
+
+            case " ":
+
+                e.preventDefault();
+
+                if(video.paused)
+
+                    video.play();
+
+                else
+
+                    video.pause();
+
+            break;
+
+            case "ArrowRight":
+
+                video.currentTime+=10;
+
+            break;
+
+            case "ArrowLeft":
+
+                video.currentTime-=10;
+
+            break;
+
+            case "ArrowUp":
+
+                video.volume=Math.min(
+
+                    video.volume+0.1,
+
+                    1
+
+                );
+
+            break;
+
+            case "ArrowDown":
+
+                video.volume=Math.max(
+
+                    video.volume-0.1,
+
+                    0
+
+                );
+
+            break;
+
+            case "f":
+
+            case "F":
+
+                btnFullscreen.click();
+
+            break;
+
+        }
+
+    }
+
+);
+window.addEventListener("load",function(){
+inicializarControles();
+        async function reconectar(){
+
+            if(reconectando)
+
+                return;
+
+            reconectando=true;
+
+            const url=document
+                .getElementById("stream_url")
+                .value
+                .trim();
+
+            if(url===""){
+
+                reconectando=false;
+
+                return;
+
+            }
+
+            try{
+
+                await destruirPlayer();
+
+                player=new shaka.Player(video);
+
+                registrarErrores();
+
+                registrarEventosPlayer();
+
+                player.configure({
+
+                    drm:{
+
+                        clearKeys:parseKeys(
+
+                            document
+                                .getElementById("stream_keys")
+                                .value
+
+                        )
+
+                    }
+
+                });
+
+                await player.load(url);
+
+                video.currentTime=ultimoTiempo;
+
+                document.getElementById("estadoPlayer").innerHTML="Reconectado";
+
+            }
+
+            catch(e){
+
+                console.error(e);
+
+                document.getElementById("estadoPlayer").innerHTML="Error";
+
+            }
+
+            reconectando=false;
+
+        }
+
+
+        function registrarErrores(){
+
+            player.addEventListener(
+
+                "error",
+
+                function(event){
+
+                    console.error(event.detail);
+
+                    document.getElementById("estadoPlayer").innerHTML="Error";
+
+                }
+
+            );
+
+        }
+
+
+        function actualizarDatosEnTiempoReal(){
+
+            if(!player)
+
+                return;
+
+            const stats=player.getStats();
+
+            if(!stats)
+
+                return;
+
+            if(stats.width){
+
+                infoResolution.innerHTML=
+
+                    stats.width+
+
+                    " x "+
+
+                    stats.height;
+
+            }
+
+            if(stats.streamBandwidth){
+
+                let mbps=(
+
+                    stats.streamBandwidth/1000000
+
+                ).toFixed(2);
+
+                infoCodec.innerHTML=
+
+                    infoCodec.innerHTML.split("|")[0]
+
+                    +" | "+
+
+                    mbps+
+
+                    " Mbps";
+
+            }
+
+        }
+
+
+        setInterval(()=>{
+
+            actualizarDatosEnTiempoReal();
+
+            actualizarAudioActivo();
+
+            actualizarSubtituloActivo();
+
+        },2000);
+		/*==========================================
+            HISTORIAL Y FAVORITOS
+==========================================*/
+
+const STORAGE_HISTORY="imperio_history";
+
+const STORAGE_FAVORITES="imperio_favorites";
+
+let historial=[];
+
+let favoritos=[];
+let canales=[];
+
+const listaCanales=document.getElementById("listaCanales");
+
+const buscarCanal=document.getElementById("buscarCanal");
+
+const btnPlayPause=document.getElementById("btnPlayPause");
+
+const btnMute=document.getElementById("btnMute");
+
+const btnFullscreen=document.getElementById("btnFullscreen");
+
+const btnPiP=document.getElementById("btnPiP");
+
+const speedControl=document.getElementById("speedControl");
+
+function cargarHistorial(){
+
+    historial=JSON.parse(
+
+        localStorage.getItem(STORAGE_HISTORY)
+
+        ||"[]"
+
+    );
+
+}
+
+function guardarHistorial(){
+
+    localStorage.setItem(
+
+        STORAGE_HISTORY,
+
+        JSON.stringify(historial)
+
+    );
+
+}
+
+function agregarHistorial(url){
+
+    if(url=="") return;
+
+    historial=historial.filter(
+
+        item=>item!==url
+
+    );
+
+    historial.unshift(url);
+
+    if(historial.length>20){
+
+        historial=historial.slice(0,20);
+
+    }
+
+    guardarHistorial();
+
+    actualizarListaHistorial();
+
+}
+
+function actualizarListaHistorial(){
+
+    const lista=document.getElementById("historyList");
+
+    if(!lista) return;
+
+    lista.innerHTML="";
+
+    historial.forEach(url=>{
+
+        const option=document.createElement("option");
+
+        option.value=url;
+
+        option.text=url;
+
+        lista.appendChild(option);
+
+    });
+
+}
+
+function cargarFavoritos(){
+
+    favoritos=JSON.parse(
+
+        localStorage.getItem(STORAGE_FAVORITES)
+
+        ||"[]"
+
+    );
+
+}
+
+function guardarFavoritos(){
+
+    localStorage.setItem(
+
+        STORAGE_FAVORITES,
+
+        JSON.stringify(favoritos)
+
+    );
+
+}
+
+function agregarFavorito(){
+
+    const url=document
+
+        .getElementById("stream_url")
+
+        .value
+
+        .trim();
+
+    if(url=="") return;
+
+    if(favoritos.includes(url))
+
+        return;
+
+    favoritos.push(url);
+
+    guardarFavoritos();
+
+    actualizarListaFavoritos();
+
+}
+
+function actualizarListaFavoritos(){
+
+    const lista=document.getElementById("favoriteList");
+
+    if(!lista) return;
+
+    lista.innerHTML="";
+
+    favoritos.forEach(url=>{
+
+        const option=document.createElement("option");
+
+        option.value=url;
+
+        option.text=url;
+
+        lista.appendChild(option);
+
+    });
+
+}
+
+function cargarUltimaURL(){
+
+    if(historial.length>0){
+
+        document.getElementById("stream_url").value=
+
+            historial[0];
+
+    }
+
+}
+
+window.addEventListener(
+
+    "load",
+
+    function(){
+
+        cargarHistorial();
+
+        cargarFavoritos();
+
+        actualizarListaHistorial();
+
+        actualizarListaFavoritos();
+
+        cargarUltimaURL();
+		
+		document
+
+.getElementById("m3uFile")
+
+.addEventListener(
+
+"change",
+
+cargarArchivoM3U
+
+);
+
+    }
+
+);
+<hr>
+
+<h3>Lista M3U</h3>
+
+<input
+type="file"
+id="m3uFile"
+accept=".m3u,.m3u8">
+
+<input
+type="text"
+id="buscarCanal"
+placeholder="Buscar canal...">
+
+<select
+id="listaCanales"
+size="10"
+style="width:100%;margin-top:10px;background:#2b2b2b;color:#fff;border:none;border-radius:6px;padding:8px;">
+</select>
+
+<button onclick="cargarCanalSeleccionado()">
+
+▶ Reproducir Canal
+
+</button>
