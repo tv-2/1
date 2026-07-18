@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3U a JSON &lt;&gt; JSON a M3U</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: sans-serif; background-color: #121214; color: #e1e1e6; 
+            padding: 20px; display: flex; flex-direction: column; height: 100vh; overflow: hidden; position: relative;
+        }
+        header { 
+            display: flex; justify-content: space-between; align-items: flex-end;
+            padding-bottom: 15px; border-bottom: 1px solid #29292e; margin-bottom: 15px; flex-shrink: 0; 
+        }
+        h1 { font-size: 24px; color: #04d361; }
+        .signature { font-size: 11px; color: #a8a8b3; margin-bottom: 4px; font-weight: normal; }
+        .upload-section { 
+            background-color: #202024; padding: 10px 15px; border-radius: 6px; 
+            border: 1px dashed #4d4d57; display: flex; align-items: center; gap: 10px; align-self: flex-start; margin-top: 10px;
+        }
+        .upload-section label { font-size: 13px; color: #a8a8b3; }
+        .file-input { color: #a8a8b3; font-size: 13px; }
+        #fileStatus { font-size: 13px; color: #04d361; font-weight: bold; }
+        .main-container { display: flex; gap: 20px; flex: 1; min-height: 0; width: 100%; }
+        .panel { 
+            width: calc(50% - 10px); display: flex; flex-direction: column; 
+            background-color: #202024; border-radius: 8px; padding: 15px; border: 1px solid #29292e; min-height: 0; 
+        }
+        .panel h3 { font-size: 16px; margin-bottom: 5px; color: #a8a8b3; flex-shrink: 0; }
+        .counter-display { font-size: 12px; color: #04d361; margin-bottom: 10px; font-weight: bold; flex-shrink: 0; }
+        textarea { 
+            width: 100%; flex: 1; padding: 12px; font-family: monospace; font-size: 13px; 
+            border: 1px solid #29292e; border-radius: 4px; background-color: #121214; color: #cccccc; 
+            resize: none; overflow-y: auto; 
+        }
+        pre { 
+            width: 100%; flex: 1; background-color: #121214; color: #04d361; padding: 12px; 
+            font-family: monospace; font-size: 13px; overflow: auto; border-radius: 4px; 
+            border: 1px solid #29292e; white-space: pre-wrap; 
+        }
+        .btn-group { display: flex; gap: 10px; margin-top: 15px; flex-shrink: 0; width: 100%; }
+        .modal-overlay {
+            display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background-color: rgba(0, 0, 0, 0.7); z-index: 1000; align-items: center; justify-content: center;
+        }
+        .modal-box {
+            background-color: #5c0000; color: #ffffff; padding: 25px; border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5); width: 420px; text-align: center; border: 2px solid #ffffff;
+        }
+        .modal-box h4 { font-size: 18px; margin-bottom: 12px; text-transform: uppercase; }
+        .modal-box p { font-size: 14px; margin-bottom: 20px; color: #ffd6d6; font-weight: bold; line-height: 1.4; }
+        .modal-actions { display: flex; gap: 10px; }
+        .modal-actions button { padding: 10px; font-size: 13px; }
+        .btn-mod-only { background-color: #ffffff; color: #5c0000; font-weight: bold; }
+        .btn-mod-only:hover { background-color: #f2f2f2; }
+        .btn-mod-all { background-color: #121214; color: #ffffff; border: 1px solid #ffffff; }
+        .btn-mod-all:hover { background-color: #202024; }
+        .btn-mod-cancel { background-color: transparent; color: #ffffff; text-decoration: underline; }
+        .toast-notification {
+            display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            background-color: #0a192f; color: #ffffff; padding: 18px 30px; border-radius: 6px;
+            border: 2px solid #00b4d8; box-shadow: 0 4px 20px rgba(0,0,0,0.6); z-index: 2000;
+            font-size: 15px; font-weight: bold; text-align: center; letter-spacing: 0.5px;
+        }
+		.btn-clear, .btn-copy, .btn-dl-json, .btn-dl-m3u {
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #29292e;
+    color: #fff;
+}
+.btn-clear:hover { background-color: #e54141; }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>M3U a JSON &lt;&gt; JSON a M3U</h1>
+            <div class="upload-section">
+                <label for="jsonFile">¿Modificar JSON existente?:</label>
+                <input type="file" id="jsonFile" class="file-input" accept=".json">
+                <span id="fileStatus"></span>
+            </div>
+        </div>
+        <div class="signature">(by Randiux Telegram)</div>
+    </header>
+    <div class="main-container">
+        <div class="panel">
+            <h3>Pega tu lista M3U o tu estructura JSON aquí:</h3>
+            <textarea id="m3uInput" placeholder="Pega tu contenido aquí..."></textarea>
+            <div class="btn-group">
+                <button onclick="mostrarModalBorrar()" class="btn-clear">Borrar Texto</button>
+                <button onclick="enrutarConversion()">Procesar / Convertir Contenido</button>
+            </div>
+        </div>
+        <div class="panel">
+            <h3>Resultado: 📄✓</h3>
+            <div id="liveCounter" class="counter-display">Categorías: 0 | Canales: 0</div>
+            <pre id="jsonOutput">El resultado aparecerá aquí...</pre>
+            <div class="btn-group">
+                <button onclick="copiarTextoGenerado()" id="btnCopy" class="btn-copy">Copiar Texto</button>
+                <button onclick="forzarDescarga('json')" id="btnDlJson" class="btn-dl-json">Bajar JSON</button>
+                <button onclick="forzarDescarga('m3u')" id="btnDlM3u" class="btn-dl-m3u">Bajar M3U</button>
+            </div>
+        </div>
+    </div>
+    <div id="deleteModal" class="modal-overlay">
+        <div class="modal-box">
+            <h4>Advertencia de Limpieza</h4>
+            <p>Selecciona una opción para continuar. Borrar todo reiniciará por completo el estado del conversor.</p>
+            <div class="modal-actions">
+                <button onclick="confirmarBorrado('texto')" class="btn-mod-only">Solo Texto</button>
+                <button onclick="confirmarBorrado('todo')" class="btn-mod-all">Borrar Todo</button>
+                <button onclick="cerrarModalBorrar()" class="btn-mod-cancel">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    <div id="emptyModal" class="modal-overlay">
+        <div class="modal-box">
+            <h4>Acción Requerida</h4>
+            <p id="emptyModalMessage">Cargar json o pegar alguna lista m3u o json</p>
+            <div class="modal-actions">
+                <button onclick="cerrarModalEmpty()" class="btn-mod-only" style="color: #5c0000; width: 100%;">Entendido</button>
+            </div>
+        </div>
+    </div>
+    <div id="copyToast" class="toast-notification">TODO EL TEXTO HA SIDO COPIADO ✓</div>
+    <script>
+        let jsonExistente = [];
+        let contenidoActualGenerado = "";
+
+        document.getElementById('jsonFile').addEventListener('change', function(e) {
+            const file = e.target.files;
+            if (!file || file.length === 0) return;
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                try {
+                    let parsed = JSON.parse(event.target.result);
+                    if (parsed && !Array.isArray(parsed) && parsed.categories) parsed = parsed.categories;
+                    jsonExistente = Array.isArray(parsed) ? parsed.filter(item => !item.info_creacion) : [];
+                    let totalCanales = 0;
+                    jsonExistente.forEach(g => { if (g.samples) totalCanales += g.samples.length; });
+                    document.getElementById('fileStatus').innerText = `✓ Base cargada (${jsonExistente.length} grupos)`;
+                    document.getElementById('liveCounter').innerText = `Categorías: ${jsonExistente.length} | Canales: ${totalCanales}`;
+                    document.getElementById('jsonOutput').innerText = `--- JSON Base Importado ---`;
+                    ocultarBotonesAccion();
+                } catch (err) {
+                    alert('Error al leer el archivo JSON base.');
+                    jsonExistente = [];
+                    document.getElementById('fileStatus').innerText = '❌ Error';
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        function mostrarModalBorrar() { document.getElementById('deleteModal').style.display = 'flex'; }
+        function cerrarModalBorrar() { document.getElementById('deleteModal').style.display = 'none'; }
+        function mostrarModalEmpty() { document.getElementById('emptyModal').style.display = 'flex'; }
+        function cerrarModalEmpty() { document.getElementById('emptyModal').style.display = 'none'; }
+
+        function ocultarBotonesAccion() {
+            document.getElementById('btnCopy').style.display = 'none';
+            document.getElementById('btnDlJson').style.display = 'none';
+            document.getElementById('btnDlM3u').style.display = 'none';
+        }
+        function confirmarBorrado(tipo) {
+            document.getElementById('m3uInput').value = '';
+            if (tipo === 'todo') {
+                jsonExistente = [];
+                contenidoActualGenerado = "";
+                document.getElementById('jsonFile').value = '';
+                document.getElementById('fileStatus').innerText = '';
+                document.getElementById('liveCounter').innerText = 'Categorías: 0 | Canales: 0';
+                document.getElementById('jsonOutput').innerText = 'El resultado aparecerá aquí...';
+            }
+            ocultarBotonesAccion();
+            cerrarModalBorrar();
+        }
+
+        function enrutarConversion() {
+            const entrada = document.getElementById('m3uInput').value.trim();
+            if (entrada === "" && jsonExistente.length === 0) {
+                document.getElementById('emptyModalMessage').innerText = "Cargar json o pegar alguna lista m3u o json";
+                mostrarModalEmpty();
+                return;
+            }
+            // CORREGIDO: Enrutador 100% estricto. Solo salta a JSON si empieza estrictamente con corchetes o llaves
+            if (entrada.startsWith('[') || entrada.startsWith('{')) {
+                convertirJsonAM3u(entrada);
+            } else {
+                convertirM3uAJson(entrada);
+            }
+        }
+        function convertirM3uAJson(txt) {
+            const lineas = txt.split('\n');
+            let estructuraGrupos = JSON.parse(JSON.stringify(jsonExistente));
+            let canalActual = null;
+
+            for (let i = 0; i < lineas.length; i++) {
+                let linea = lineas[i].trim();
+                if (!linea) continue;
+
+                if (linea.toUpperCase().startsWith('#EXTINF:')) {
+                    canalActual = { name: "", url: "", type: "hls", icono: "", drm_license_uri: "", headers: {}, _group: "Sin Categoría" };
+                    const logoMatch = linea.match(/tvg-logo=["']([^"']*)["']/i);
+                    if (logoMatch) canalActual.icono = logoMatch[1];
+                    const groupMatch = linea.match(/group-title=["']([^"']*)["']/i);
+                    if (groupMatch) canalActual._group = groupMatch[1];
+                    const comaIndex = linea.lastIndexOf(',');
+                    if (comaIndex !== -1) canalActual.name = linea.substring(comaIndex + 1).trim();
+                } 
+                else if (linea.toUpperCase().startsWith('#EXTHTTP:')) {
+                    if (!canalActual) continue;
+                    try {
+                        const httpData = JSON.parse(linea.substring(9).trim());
+                        Object.keys(httpData).forEach(k => canalActual.headers[k] = httpData[k]);
+                    } catch (e) {
+                        const orig = linea.match(/"origin"\s*:\s*"([^"]*)"/i);
+                        const ref = linea.match(/"referer"\s*:\s*"([^"]*)"/i);
+                        if (orig) canalActual.headers.Origin = orig[1];
+                        if (ref) canalActual.headers.Referer = ref[1];
+                    }
+                }
+                else if (linea.toUpperCase().startsWith('#EXTVLCOPT:')) {
+                    if (!canalActual) continue;
+                    const refererMatch = linea.match(/#EXTVLCOPT:http-referr?er=(.*)/i);
+                    if (refererMatch) { canalActual.headers.Referer = refererMatch[1].trim(); continue; }
+                    const originMatch = linea.match(/#EXTVLCOPT:http-origin=(.*)/i);
+                    if (originMatch) { canalActual.headers.Origin = originMatch[1].trim(); continue; }
+                    const uaMatch = linea.match(/#EXTVLCOPT:http-user-agent=(.*)/i);
+                    if (uaMatch) { canalActual.headers["User-Agent"] = uaMatch[1].trim(); continue; }
+                    
+                    const headersLineMatch = linea.match(/#EXTVLCOPT:http-headers=(.*)/i);
+                    if (headersLineMatch) {
+                        const parejas = headersLineMatch[1].split(',');
+                        parejas.forEach(par => {
+                            const partesPar = par.split(':');
+                            if (partesPar.length >= 2) canalActual.headers[partesPar[0].trim()] = partesPar.slice(1).join(':').trim();
+                        });
+                    }
+                }
+                else if (linea.toUpperCase().startsWith('#KODIPROP:INPUTSTREAM.ADAPTIVE.MANIFEST_TYPE=')) {
+                    if (canalActual) canalActual.type = linea.substring(45).trim().toUpperCase();
+                }
+                else if (linea.toUpperCase().startsWith('#KODIPROP:INPUTSTREAM.ADAPTIVE.LICENSE_TYPE=')) {
+                    if (canalActual) canalActual._lic_type = linea.substring(44).trim();
+                }
+                else if (linea.toUpperCase().startsWith('#KODIPROP:INPUTSTREAM.ADAPTIVE.LICENSE_KEY=')) {
+                    if (canalActual) {
+                        let keyContent = linea.substring(43).trim();
+                        if (keyContent.startsWith('{')) {
+                            try {
+                                const cleanJsonStr = keyContent.replace(/\\/g, '');
+                                const parsedKeyObj = JSON.parse(cleanJsonStr);
+                                const keys = Object.keys(parsedKeyObj);
+                                if (keys.length > 0) {
+                                    if (parsedKeyObj.kid && parsedKeyObj.key) { keyContent = `kid:${parsedKeyObj.kid},k:${parsedKeyObj.key}`; } 
+                                    else { keyContent = `kid:${keys[0]},k:${parsedKeyObj[keys[0]]}`; }
+                                }
+                            } catch(e) {
+                                const matches = keyContent.match(/"([^"]+)"\s*:\s*"([^"]+)"/g);
+                                if (matches) { keyContent = matches.map(m => { const p = m.split(':'); return `kid:${p[0].replace(/"/g,'').trim()},k:${p[1].replace(/"/g,'').trim()}`; }).join(','); }
+                            }
+                        }
+                        canalActual.drm_license_uri = keyContent;
+                    }
+                }
+                else if (!linea.startsWith('#')) {
+                    if (canalActual) {
+                        canalActual.url = linea;
+                        let grupoTarget = estructuraGrupos.find(g => g.name === canalActual._group);
+                        if (!grupoTarget) {
+                            grupoTarget = { name: canalActual._group, samples: [] };
+                            estructuraGrupos.push(grupoTarget);
+                        }
+                        const canalLimpio = { name: canalActual.name, url: canalActual.url, type: canalActual.type || "CLEARKEY", icono: canalActual.icono };
+                        if (canalActual.drm_license_uri && canalActual.drm_license_uri.trim() !== "") canalLimpio.drm_license_uri = canalActual.drm_license_uri;
+                        if (Object.keys(canalActual.headers).length > 0) canalLimpio.headers = canalActual.headers;
+                        grupoTarget.samples.push(canalLimpio);
+                        canalActual = null; 
+                    }
+                }
+            }
+            let totalCanales = 0;
+            estructuraGrupos.forEach(g => { if (g.samples) totalCanales += g.samples.length; });
+            document.getElementById('liveCounter').innerText = `Categorías: ${estructuraGrupos.length} | Canales: ${totalCanales}`;
+            
+            contenidoActualGenerado = JSON.stringify(estructuraGrupos, null, 4);
+            document.getElementById('jsonOutput').innerText = contenidoActualGenerado;
+
+            document.getElementById('btnCopy').style.display = 'block';
+            document.getElementById('btnDlJson').style.display = 'block';
+            document.getElementById('btnDlM3u').style.display = 'none';
+        }
+
+        function base64ToHex(b64Str) {
+            try {
+                let limpia = b64Str.trim().replace(/-/g, '+').replace(/_/g, '/');
+                while (limpia.length % 4) limpia += '=';
+                const binario = atob(limpia);
+                let hex = '';
+                for (let i = 0; i < binario.length; i++) { hex += binario.charCodeAt(i).toString(16).padStart(2, '0'); }
+                return hex;
+            } catch (e) { return b64Str; }
+        }
+        function convertirJsonAM3u(jsonString) {
+            try {
+                let limpiaTexto = jsonString.trim();
+                if (limpiaTexto.startsWith('{') && !limpiaTexto.endsWith(']')) {
+                    if (!limpiaTexto.includes('"categories"') && !limpiaTexto.includes('"summary"')) {
+                        limpiaTexto = '[' + limpiaTexto + ']';
+                    }
+                }
+                let parsed = JSON.parse(limpiaTexto);
+                let grupos = [];
+
+                if (Array.isArray(parsed)) { grupos = parsed; } 
+                else if (parsed && typeof parsed === 'object') {
+                    if (parsed.categories && Array.isArray(parsed.categories)) { grupos = parsed.categories; } 
+                    else if (parsed.samples && Array.isArray(parsed.samples)) { grupos = [parsed]; } 
+                    else {
+                        let encontrado = false;
+                        Object.keys(parsed).forEach(key => {
+                            if (Array.isArray(parsed[key]) && parsed[key].length > 0) { grupos = parsed[key]; encontrado = true; }
+                        });
+                        if (!encontrado) grupos = [parsed];
+                    }
+                }
+                grupos = grupos.filter(item => item && !item.info_creacion && (item.samples || item.name || item.url || item.original_url));
+                let totalCanales = 0;
+                grupos.forEach(g => {
+                    if (g.samples && Array.isArray(g.samples)) totalCanales += g.samples.length;
+                    else if (g.url || g.original_url) totalCanales++;
+                });
+                document.getElementById('liveCounter').innerText = `Categorías: ${grupos.length} | Canales: ${totalCanales}`;
+
+                const ahora = new Date();
+                const d = ahora.getDate().toString().padStart(2, '0');
+                const m = (ahora.getMonth() + 1).toString().padStart(2, '0');
+                const a = ahora.getFullYear();
+                const h = ahora.toLocaleTimeString();
+
+                let m3uResultado = `# Generado por: Gemini (IA)\n# Mejorado por: randiux\n`;
+                m3uResultado += `# Fecha: ${d}/${m}/${a} - Hora: ${h}\n`;
+                m3uResultado += `# Total Grupos: ${grupos.length} | Total Canales: ${totalCanales}\n\n#EXTM3U\n\n`;
+                grupos.forEach(grupo => {
+                    const nombreGrupo = grupo.name || "Sin Categoría";
+                    const canales = grupo.samples || [grupo];
+                    if (Array.isArray(canales)) {
+                        canales.forEach(canal => {
+                            if (!canal || (!canal.name && !canal.url && !canal.original_url)) return;
+                            let logoUrl = canal.image || canal.icono || "";
+                            const logo = logoUrl ? ` tvg-logo="${logoUrl}"` : ' tvg-logo=""';
+                            m3uResultado += `#EXTINF:-1${logo} group-title="${nombreGrupo}",${canal.name || "Canal"}\n`;
+                            if (canal.headers) {
+                                let vlcHeadersArray = []; let userAgentValor = ""; let refererValor = "";
+                                Object.keys(canal.headers).forEach(key => {
+                                    const kUpper = key.toUpperCase();
+                                    if (kUpper === "USER-AGENT") userAgentValor = canal.headers[key];
+                                    if (kUpper === "REFERER" || kUpper === "REFERRER") refererValor = canal.headers[key];
+                                });
+                                if (refererValor) {
+                                    m3uResultado += `#EXTHTTP:{"origin":"${refererValor}","referer":"${refererValor}"}\n`;
+                                    m3uResultado += `#EXTVLCOPT:http-origin=${refererValor}\n#EXTVLCOPT:http-referrer=${refererValor}\n`;
+                                } else if (canal.headers.origin || canal.headers.Origin) {
+                                    let origV = canal.headers.origin || canal.headers.Origin;
+                                    m3uResultado += `#EXTHTTP:{"origin":"${origV}","referer":""}\n` + `#EXTVLCOPT:http-origin=${origV}\n`;
+                                }
+                                if (userAgentValor) m3uResultado += `#EXTVLCOPT:http-user-agent=${userAgentValor}\n`;
+                                Object.keys(canal.headers).forEach(key => {
+                                    const kUpper = key.toUpperCase();
+                                    if (kUpper !== "ORIGIN" && kUpper !== "REFERER" && kUpper !== "REFERRER" && kUpper !== "USER-AGENT") vlcHeadersArray.push(`${key}:${canal.headers[key]}`);
+                                });
+                                if (vlcHeadersArray.length > 0) m3uResultado += `#EXTVLCOPT:http-headers=${vlcHeadersArray.join(',')}\n`;
+                            }
+                            if (canal.type) m3uResultado += `#KODIPROP:inputstream.adaptive.manifest_type=${canal.type.toLowerCase()}\n#kodiprop:inputstreamaddon=inputstream.adaptive\n`;
+                            
+                            let tipoLicencia = canal.license_type || canal._lic_type || "clearkey";
+                            let rawDrm = canal.license_key || canal.drm_license_uri || "";
+                            if (typeof rawDrm === 'string') rawDrm = rawDrm.trim().replace(/\\/g, '');
+
+                            if (rawDrm) {
+                                m3uResultado += `#KODIPROP:inputstream.adaptive.license_type=${tipoLicencia.toLowerCase()}\n`;
+                                let cadenaCombinada = "";
+                                try {
+                                    let jsonDrmObj = (typeof rawDrm === 'string' && (rawDrm.startsWith('{') || rawDrm.startsWith('['))) ? JSON.parse(rawDrm) : rawDrm;
+                                    if (jsonDrmObj.keys && Array.isArray(jsonDrmObj.keys)) {
+                                        jsonDrmObj.keys.forEach(llave => {
+                                            if (llave.kid && llave.k) {
+                                                const hexKid = llave.kid.length === 32 ? llave.kid : base64ToHex(llave.kid);
+                                                const hexKey = llave.k.length === 32 ? llave.k : base64ToHex(llave.k);
+                                                cadenaCombinada += `{"${hexKid}":"${hexKey}"}`;
+                                            }
+                                        });
+                                        rawDrm = cadenaCombinada;
+                                    }
+                                } catch(e) {}
+
+                                if (typeof rawDrm === 'string' && (rawDrm.includes('kid:') || rawDrm.includes('k:'))) {
+                                    const matchKid = rawDrm.match(/kid:\s*([^,]+)/i); const matchKey = rawDrm.match(/k:\s*([^,]+)/i);
+                                    const b64Kid = matchKid ? matchKid[1].trim() : ""; const b64Key = matchKey ? matchKey[1].trim() : "";
+                                    if (b64Kid && b64Key) {
+                                        const hexKid = b64Kid.length === 32 ? b64Kid : base64ToHex(b64Kid);
+                                        const hexKey = b64Key.length === 32 ? b64Key : base64ToHex(b64Key);
+                                        rawDrm = `{"${hexKid}":"${hexKey}"}`;
+                                    }
+                                }
+
+                                if (rawDrm.startsWith('http') || rawDrm.startsWith('{')) { m3uResultado += `#KODIPROP:inputstream.adaptive.license_key=${rawDrm}\n`; } 
+                                else if (rawDrm.includes(',')) {
+                                    const bloquesClaves = rawDrm.split(',');
+                                    bloquesClaves.forEach(bloque => {
+                                        const partes = bloque.split(':');
+                                        if (partes.length === 2) {
+                                            const hexK = partes[0].trim().length === 32 ? partes[0].trim() : base64ToHex(partes[0].trim());
+                                            const hexV = partes[1].trim().length === 32 ? partes[1].trim() : base64ToHex(partes[1].trim());
+                                            cadenaCombinada += `{"${hexK}":"${hexV}"}`;
+                                        }
+                                    });
+                                    m3uResultado += `#KODIPROP:inputstream.adaptive.license_key=${cadenaCombinada}\n`;
+                                } else {
+                                    const partesKey = rawDrm.split(':');
+                                    if (partesKey.length === 2) {
+                                        const hexK = partesKey[0].trim().length === 32 ? partesKey[0].trim() : base64ToHex(partesKey[0].trim());
+                                        const hexV = partesKey[1].trim().length === 32 ? partesKey[1].trim() : base64ToHex(partesKey[1].trim());
+                                        m3uResultado += `#KODIPROP:inputstream.adaptive.license_key={"${hexK}":"${hexV}"}\n`;
+                                    } else { m3uResultado += `#KODIPROP:inputstream.adaptive.license_key=${rawDrm}\n`; }
+                                }
+                            }
+                            m3uResultado += `${canal.original_url || canal.url || ""}\n\n`;
+                        });
+                    }
+                });
+                
+                contenidoActualGenerado = m3uResultado;
+                document.getElementById('jsonOutput').innerText = contenidoActualGenerado;
+
+                document.getElementById('btnCopy').style.display = 'block';
+                document.getElementById('btnDlJson').style.display = 'none';
+                document.getElementById('btnDlM3u').style.display = 'block';
+            } catch (err) { alert("El fragmento JSON insertado no es válido."); document.getElementById('jsonOutput').innerText = "Error."; }
+        }
+
+        function copiarTextoGenerado() {
+            if (!contenidoActualGenerado) { alert("No hay texto para copiar."); return; }
+            const dummyTextArea = document.createElement("textarea");
+            dummyTextArea.value = contenidoActualGenerado;
+            dummyTextArea.style.position = "fixed"; dummyTextArea.style.left = "-9999px";
+            document.body.appendChild(dummyTextArea);
+            dummyTextArea.select(); dummyTextArea.setSelectionRange(0, 999999);
+            try {
+                navigator.clipboard.writeText(contenidoActualGenerado).then(() => {
+    const toast = document.getElementById('copyToast'); 
+    toast.style.display = 'block';
+    setTimeout(() => { toast.style.display = 'none'; }, 2000);
+}).catch(err => {
+    alert("Error al copiar automáticamente: " + err);
+});
+
+
+        function forzarDescarga(formatoDeseado) {
+            if (!contenidoActualGenerado) { alert("Primero debes procesar contenido."); return; }
+            const tipoMime = formatoDeseado === "json" ? "application/json" : "audio/x-mpegurl";
+            const blob = new Blob([contenidoActualGenerado], { type: tipoMime + ";charset=utf-8" });
+            const downloadAnchor = document.createElement('a');
+            downloadAnchor.href = URL.createObjectURL(blob);
+            downloadAnchor.setAttribute("download", `lista_convertida.${formatoDeseado}`);
+            document.body.appendChild(downloadAnchor); downloadAnchor.click(); downloadAnchor.remove();
+        }
+    </script>
+</body>
+</html>
